@@ -18,16 +18,16 @@ def is_leap_year_bc_num(year):
 
 
 if __name__ == "__main__":
-   year = input("Give me a year with numbers and I will determine whether it is a leap year or not, you may add 'BC' for bc years. : ")
+    year = input("Give me a year with numbers and I will determine whether it is a leap year or not, you may add 'BC' for bc years. : ")
 
 
-if year.isdigit() or "AD" in year.upper():
-        print(is_leap_year_ad_num((year)))
+    if year.isdigit() or "AD" in year.upper():
+            print(is_leap_year_ad_num((year)))
 
-if "BC" in year.upper():
-        print(is_leap_year_bc_num((year)))
+    if "BC" in year.upper():
+            print(is_leap_year_bc_num((year)))
 
-print("You typed " + str(year))
+    print("You typed " + str(year))
 
 
 
