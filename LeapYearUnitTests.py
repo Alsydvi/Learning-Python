@@ -1,6 +1,6 @@
 
 import unittest
-import leapyear
+import LeapYear
 
 class Testing(unittest.TestCase):
 
